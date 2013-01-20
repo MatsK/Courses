@@ -1,20 +1,23 @@
 
 int LEDs[] = { 2,3,4,5,6,7,8,9};
 
-unsigned char pattern[13] = {
-    0,
-    0,
-    32+64,
-    8+16+32+64+128,
-    4+8+16+32+64+128,
-    2+4+8+16+32+64,
-    1+2+4+8+16+32,
-    2+4+8+16+32+64,
-    4+8+16+32+64+128,
-    8+16+32+64+128,
-    32+64,
-    0,
-    0,
+unsigned char pattern[16] = {
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    128,
+    64,
+    32,
+    16,
+    8,
+    4,
+    2,
+    1
   };
 
 #define UP 1
@@ -32,14 +35,15 @@ void setup() {
 }
 
 void loop() {
+  /*
   for(int i = 0; i < 8; i++)
     digitalWrite(LEDs[i], LOW );
-  delay(2);
+    */
   for(int i = 0; i < 8; i++)
     digitalWrite(LEDs[i], ( pattern[ledstat]>>i&1 ? HIGH: LOW) );
   ledstat++;
-  if ( !(ledstat < 13) )
-    ledstat = ledstat % 13;
-  delay(3);
+  if ( !(ledstat < 16) )
+    ledstat = ledstat % 16;
+  delay(100);
 }
 
