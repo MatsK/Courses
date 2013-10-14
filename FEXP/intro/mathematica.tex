@@ -1,0 +1,245 @@
+\def\Mathematica{{\it Mathematica\/}}
+
+\htitle{\Mathematica の使い方}
+\expnum{付録5}
+\makeatitle
+
+\setcounter{section}{0}
+\setcounter{equation}{0}
+\setcounter{figure}{0}
+
+\section{はじめに}\label{sec:5}
+
+例えば、{\tt 4300/35}を計算したいとすると、このような単純な
+計算でも今では電卓を探す人の方が多く、紙と鉛筆で計算を始めよ
+うとする人はほとんどいないだろう。しかし微分、積分を含むよう
+な計算をしたいとすると、今度は紙と鉛筆で計算を始めるだろう。
+
+\Mathematica は計算機上で微分積分などを含む計算を解析的に解
+くことができるアプリケーションである。今後、このようなアプリ
+ケーションを用いて解析的な計算を進めていく助けに利用すると便
+利である。ここでは簡単に\Mathematica の使い方を説明していく。
+
+\section{基本的な使い方}
+
+\subsection{起動}
+
+起動方法はいたって簡単である。情報科学センターの端末で、
+ktermを立ち上げて以下のようにコマンドを入力する。
+
+\ 
+
+\begin{screen}
+\begin{verbatim}
+
+******so% mathematica
+\end{verbatim}
+\end{screen}
+
+\ 
+
+メニューを見るとたとえば\fbox{ファイル}$\rightarrow$\fbox{新
+  規作成}の
+横には{\tt Ctrl+N}のように書かれている。これはショートカット
+キーであり、キーボードの{\tt Ctrl}キーを押しながら{\tt n}を押
+すと同様な操作ができることを意味する。
+
+\subsection{実際に使ってみる}
+
+それでは実際に\Mathematica を用いた計算処理を始めてみる。
+図1に簡単な計算例を示しておく。
+
+\begin{figure}[p]
+\includegraphics[scale=0.8]{note21.eps}
+\caption{\Mathematica による実行例}
+\end{figure}
+
+\ 
+
+\begin{itembox}[l]{\bf 練習1}
+図1を実際に入力して試してみなさい。スペースやカンマや
+大文字小文字の区別に注意すること。図中の太文字部分を入力し、
+Shift+Enterを最後にキー入力する。
+\end{itembox}
+
+\paragraph{通し番号}
+
+In[1] Out[2]は\Mathematica が自動的に付ける
+通し番号である。したがってユーザ側が入力する必要はない。
+
+
+\paragraph{整数計算}
+
+{\tt 4300/35}では整数の計算になるので分数の約分
+のみを行っている。
+
+
+\paragraph{実数計算}
+
+つぎの計算では小数点を含んでおり精度が与えられるので数値で求
+めている。
+
+
+\paragraph{関数および組み込み名}
+
+\Mathematica では{\tt []}は関数を表す。()を使わない理由は数
+学の優先順位を決める記号と混同させないためである。引数は{\tt
+  ,}(カンマ)を用いて区別する。{\tt N}という関数は数値を求め
+る関数であり、引数を2つ用いて、$\pi$の値を30桁で求めている。
+{\tt N}, {\tt Pi}のように最初が大文字で始まるのは
+\Mathematica 内で用いている変数や関数である。従って、ユーザー
+は小文字から始まる変数や関数を使うようにすると、衝突が無く都
+合がよくなる。
+
+\ 
+
+\begin{itembox}[l]{\bf 練習2}
+{\tt 30}の上でダブルクリックして反転表示させ、
+{\tt 10000}と入力し計算させてみなさい。
+また、{\tt Pi}を{\tt Sqrt[2]}と変更して計算させてみなさ
+  い。
+\end{itembox}
+
+\ 
+
+\paragraph{グラフィックスおよびリスト}
+
+{\tt Plot3D[Sin[x y],\{x,0,Pi\},\{y,0,Pi\}]} はグラフィック
+の例である。{\tt Plot3D}は大文字で始まっているので組み込みの
+関数であることがわかる。これは{\tt ,}(カンマ)で区切られた3つ
+の引数をもつ。最初は表示する関数で、{\tt Sin[]}は正弦関
+数($\sin$)を返す関数である。{\tt x y}のように変数をスペース
+で区切っているのは$x\times y$のかけ算を意味する。2番目と3番
+目の引数は{\tt \{\ \}}で囲まれており、ここでは
+$x$軸と$y$軸の値を与えている。表示はノートブックの中で行われ
+る。
+
+\paragraph{積分およびパレット機能}
+パレット機能を使うと、自然な表現での数式の入力ができる。
+\Mathematica を立ち上げたときに右上にパレットが表示
+されるのでこれを利用して入力する。ここでの例は、「No. 1 測定
+の基礎」で出てくる、標準正規分布関数の上側分布を数値的に計算
+しているものである。式は次の通りである。
+\begin{displaymath}
+\int_{1.0}^\infty
+\frac{1}{\sqrt{2\pi}}\exp\left(-\frac{x^2}{2}\right) {\rm d}x= 0.158655
+\end{displaymath}
+これまではプログラムを組まないと求められない計算も
+\Mathematica を使って簡単に求めることができる。
+
+\section{へルプ機能}
+\Mathematica には強力なヘルプ機能がある。これを利用すると
+\Mathematica を自学で使えるようになるだろう。
+
+\subsection{10分間のチュートリアル}
+
+一番最初に読んだ方がいいのが、「10分間のチュートリアル」であ
+る。\Mathematica を最初に立ち上げたときに図2のようなパレット
+が表示されているので、「10分間のチュートリアル」をクリックし
+てチュートリアルを実行する。
+
+\begin{figure}[p]
+\centering{\includegraphics[scale=0.4]{tutorial.eps}}
+\caption{10分間のチュートリアルの開始}
+\end{figure}
+\begin{figure}[p]
+\centering{\includegraphics[scale=0.6]{helpbrowser.eps}}
+\caption{Help Browserの例}
+\end{figure}
+
+\begin{itembox}[l]{\bf 練習3}
+  「10分間のチュートリアルの開始」をクリックしてチュートリア
+  ルを実行しなさい。実際に入力すると、よりよく理解できる。
+\end{itembox}    
+
+\subsection{\Mathematica ツアー}
+次にMathematicaツアーを表示してみよう。
+
+\ 
+
+\begin{itembox}[l]{\bf 練習4}
+    \begin{enumerate}
+    \item メニューの\fbox{へルプ}$\rightarrow$\fbox{へルプ...}で
+      Help Browserを立ち上げる。
+    \item 「\Mathematica ツアー」をスイッチの中から選択する。
+    \item 「\Mathematica を電卓として使う」を下のウィンドウから選ぶ。
+    \end{enumerate}
+\end{itembox}
+
+\ 
+
+練習4を実行すると図3のように表示される。
+
+
+
+他にも多くの例があるので、各自、試してほしい。
+
+\
+
+
+\section{ノートブック}
+ノートブック形式では章立てを簡単に入力できるように工夫されて
+いる。マルチフォントを使ってプログラムにコメントを残せるのは
+非常に便利である。
+
+\ 
+
+\begin{itembox}[l]{\bf 練習5}
+    \begin{enumerate}
+    \item メニューの\fbox{ファイル}$\rightarrow$\fbox{新規作
+        成}で
+    新しくウィンドウを開く。(あるいは{\tt Ctrl+n}でもよい。)
+    \item そのままの状態で
+    \fbox{書式}$\rightarrow$\fbox{スタイル}$\rightarrow$\fbox{Title}を選択する。\\
+    \item キーボードから ``{\tt Title}''と入力する。
+    \item キーボードの下矢印キーを押す。画面では横一線が表示さ
+    れる。
+    \item 同様に
+    \fbox{書式}$\rightarrow$\fbox{スタイル}$\rightarrow$\fbox{Section}
+    を選択し、 ``{\tt Section}''と入力する。
+    \item キーボードの下矢印キーを押す。画面では横一線が表示さ
+    れる。
+    \item 同様に
+    \fbox{書式}$\rightarrow$\fbox{スタイル}$\rightarrow$\fbox{Subsection}を選択し、 ``{\tt Subsection}''と入力する。
+\end{enumerate}
+\end{itembox}
+
+\
+
+練習5を実行すると、図4のようになる。
+
+\begin{figure}[htbp]
+  \begin{center}
+    \includegraphics[scale=0.8]{title.eps}
+  \end{center}
+\caption{章立てを入力する。}
+\end{figure}
+
+C言語などを用いて計算をする時には、アルゴリズムを書いた
+文書、プログラム、処理結果の少なくても3つのファイルを管理し
+なければならない。それに対して\Mathematica の場合にはそれを1つのノー
+トブックにまとめて載せることができる。これは非常に便利なこと
+であり、後からプログラムを見る時に手助けになる。
+
+\section{最後に}
+
+\Mathematica は大変優れたアプリケーションである。数値演算、
+記号計算はもちろん、グラフィクス、プログラミングもこなす。基
+礎実験だけでなく他の科目においても、\Mathematica を有効に利
+用していただきたい。
+
+\Mathematica に関してのもっと詳しいことに関してはインターネット上や多
+数の書籍が出ているので、そちらを参考にしてほしい。
+
+
+\
+
+\paragraph{参考文献および参考となるURL}
+\begin{itemize}
+\item 「工学系のための\Mathematica 入門」：小田部荘司著  オ
+  フセット版は九工大生協にて1000円で購入できる。
+\item {\tt http://aquarius10.cse.kyutech.ac.jp/$\sim$otabe/mathematica/}
+\item {\tt http://bach.istc.kobe-u.ac.jp/mma/}
+\item {\tt http://www.core.kochi-tech.ac.jp/m\_inoue/mathematica\_n/}
+\end{itemize}
+\end{document}

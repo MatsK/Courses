@@ -1,0 +1,258 @@
+This is pTeX, Version 3.14159-p3.1.2 (euc) (Web2C 7.4.5) (format=platex-euc 2004.9.9)  10 SEP 2007 16:56
+**intro.tex
+(./intro.tex
+pLaTeX2e <2001/09/04>+0 (based on LaTeX2e <2001/06/01> patch level 0)
+(./jikken_title_page.cls
+
+LaTeX Warning: You have requested document class `jikken_title_page',
+               but the document class provides `jikken'.
+
+Document Class: jikken 2006/03/20
+(/usr/share/texmf/ptex/platex/base/jarticle.cls
+Document Class: jarticle 2001/10/04 v1.3 Standard pLaTeX class
+\c@@paper=\count81
+(/usr/share/texmf/ptex/platex/base/jsize12.clo
+File: jsize12.clo 2001/10/04 v1.3 Standard pLaTeX file (size option)
+)
+\c@part=\count82
+\c@section=\count83
+\c@subsection=\count84
+\c@subsubsection=\count85
+\c@paragraph=\count86
+\c@subparagraph=\count87
+\c@figure=\count88
+\c@table=\count89
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 597.
+LaTeX Info: Redefining \mathrm on input line 599.
+LaTeX Info: Redefining \mathbf on input line 600.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count90
+) (./fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+ 
+Tutorial manual class file "jikken.cls" loaded; dated 2006/01/15; Shunsuke ARAK
+I
+Modfied by Edmund Soji Otabe on Aug. 22, 2006
+) (/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2001/08/31 v1.1 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(/usr/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+(/usr/share/texmf/ptex/platex/base/ascmac.sty
+(/usr/share/texmf/ptex/platex/base/tascmac.sty
+\@savetbaselineshift=\dimen123
+\@saveybaselineshift=\dimen124
+\scb@x=\box41
+\scscb@x=\box42
+\@bw=\dimen125
+\@nbox=\box43
+\@nbody=\box44
+\@scw=\dimen126
+\@itemh=\dimen127
+\@iboxpos=\toks16
+\@iboxstr=\box45
+\@bwsp=\box46
+\@@bwsp=\box47
+\@bcal=\count91
+\shaderule=\dimen128
+)) (./intro.aux)
+\openout1 = `intro.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24.88> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24.88> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 12.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <17.28> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 22.
+ [1
+
+]
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 37.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 37.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 37.
+
+(/usr/share/texmf/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 37.
+ [2] (./chapter1.tex
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <20.74> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 18.
+ [1] [2]
+File: booth.eps Graphic file (type eps)
+
+<booth.eps>
+
+LaTeX Warning: Float too large for page by 22.9497pt on input line 107.
+
+[3] [4] [5]) (./chapter2.tex
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 13.
+ [6]
+File: fig.eps Graphic file (type eps)
+ <fig.eps>
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 98.
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 98.
+ [7] [8]
+File: semilog.eps Graphic file (type eps)
+ <semilog.eps>
+File: loglog.eps Graphic file (type eps)
+ <loglog.eps>
+[9] [10] [11] [12]) (./chapter3.tex [13]
+Overfull \hbox (1.76276pt too wide) in paragraph at lines 72--76
+\JY1/mc/m/n/12 ¤Î·Á¤ÇÍ¿¤¨¤é¤ì¤Æ¤¤¤ë¤È¤¹¤ë ¡£ $\OML/cmm/m/it/12 x[]; x[]; [] ; x
+[]$ \JY1/mc/m/n/12 ¤ÎÄ¾ÀÜÂ¬Äê¤Ë¤ª¤±¤ë¸íº¹¤ò¤½¤ì¤¾¤ì $\OML/cmm/m/it/12 x[]$\OT1
+/cmr/m/n/12 , $\OML/cmm/m/it/12 x[]; [] ; x[]$
+ []
+
+[14] [15] [16]
+
+LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
+(Font)              using `JY1/mc/m/n' instead on input line 258.
+
+
+LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
+(Font)              using `JT1/mc/m/n' instead on input line 258.
+
+File: fig1.eps Graphic file (type eps)
+<fig1.eps>
+File: fig2.eps Graphic file (type eps)
+ <fig2.eps> [17] [18]
+File: fig3.eps Graphic file (type eps)
+ <fig3.eps>
+File: fig4.eps Graphic file (type eps)
+ <fig4.eps>
+File: fig5_1.eps Graphic file (type eps)
+ <fig5_1.eps> [19]
+[20]
+File: fig6.eps Graphic file (type eps)
+ <fig6.eps> [21] [22]
+File: fig71.eps Graphic file (type eps)
+ <fig71.eps> [23] [24] [25]
+LaTeX Font Info:    Font shape `OMS/cmr/bx/n' in size <17.28> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 631.
+ [26] [27] [28] [29]
+[30] [31] [32]) (./furoku1.tex
+File: teikou.eps Graphic file (type eps)
+ <teikou.eps> [33]
+File: condenser.eps Graphic file (type eps)
+ <condenser.eps> [34] [35])
+(./furoku2.tex
+File: dengen.eps Graphic file (type eps)
+ <dengen.eps> [36] [37]) (./furoku3.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 33.
+ [38] [39] [40] [41]
+[42]) (./furoku4.tex
+File: standard1.eps Graphic file (type eps)
+ <standard1.eps> [43] [44]
+File: standard2.eps Graphic file (type eps)
+ <standard2.eps> [45]
+Overfull \hbox (1.24913pt too wide) in paragraph at lines 144--233
+[][] 
+ []
+
+[46]) (./mathematica.tex
+File: note21.eps Graphic file (type eps)
+ <note21.eps> [47] [48]
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 107
+.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 107.
+
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 107.
+
+File: tutorial.eps Graphic file (type eps)
+<tutorial.eps>
+File: helpbrowser.eps Graphic file (type eps)
+ <helpbrowser.eps> [49] [50] [51]
+File: title.eps Graphic file (type eps)
+ <title.eps> [52] [53]
+(./intro.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) ) 
+Here is how much of TeX's memory you used:
+ 964 strings out of 95599
+ 10727 string characters out of 1191392
+ 73270 words of memory out of 1000001
+ 4041 multiletter control sequences out of 10000+50000
+ 22220 words of font info for 85 fonts, out of 500000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 28i,11n,45p,255b,509s stack positions out of 1500i,500n,5000p,200000b,5000s
+
+Output written on intro.dvi (55 pages, 175088 bytes).
